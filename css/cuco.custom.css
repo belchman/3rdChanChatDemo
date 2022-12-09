@@ -1,0 +1,140 @@
+BODY { background-color:#FFF; font-family:'Helvetica Neue Light', 'HelveticaNeue-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+DIV.content-container { background-color:#FFF; }
+
+B.emoticon { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/skullcandy/img/emoticons.gif) top left no-repeat; }
+
+/* Migrate specific buttons to use these kind of names, probably ought to add .tertiary definition.. */
+/* .primary.button { background:#888 none; } */
+.button.primary:hover { }
+.button.secondary:hover { }
+.primary { background:#0A4779 url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bg-header.jpg) bottom repeat-x; color:#FFF; }
+.principal { background-color:#0A4779; color:#FFF; }
+.principal.button:hover { }
+.secondary { background-color:#0A4779; color:#FFF; }
+.overlay { }
+.ui-drop-shadow { -moz-box-shadow:0 0 20px #888; -webkit-box-shadow:0 0 20px #888; box-shadow:0 0 20px #888; }
+
+.cBio { background:#E5EFF1 url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/light-blue-fadeout.gif) bottom repeat-x; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; color:#555; font-size:12px; }
+.cBio IMG { border:#AAA 1px solid; }
+/* Cuco/Header */
+#cuco-body { border: #000 1px solid; background-color:#FFF; color:#000; }
+#cuco-header { background: #4cb7cf; height:60px; }
+#close-widget { width:100px; }
+#close-text { font-size:14px; }
+#close-left { background:#0A4779; color:#FFF; padding-right:3px; }
+#close-right { width:24px; margin-left:0px; background:#000 url('https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/white-x.gif') 6px 7px no-repeat; }
+#close-widget:hover #close-left { background-color:#043155; }
+#close-widget:hover #close-right { color:#575757; }
+#title-bar { overflow:visible; background:#EEE; border-bottom:#CCC 1px solid; }
+#expert-assistance { margin-top:0; color:#444; display:block; width:220px; height:16px; top:12px; line-height:12px; font-size:14px; font-weight:normal; font-style:oblique; }
+#expert-info { position:relative; }
+#expert-pic { padding:0; float:none; position:absolute; left:430px; }
+#expert-name { position:absolute; color:#000; font-weight:bold; font-size:12px; right:50px; top:2px; text-align:right; }
+#assistance-by { }
+#needle-logo { position:absolute; left:8px; top:-52px; background: url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/needleLogo.png) 10px no-repeat; width:175px; height:40px; }
+#your-expert { color:#B2B2B2; }
+#expert-name A { color:#0A4779; }
+#canvas-widget-title { background:#FFF; color:#000; font-weight:bold; margin:0; }
+#canvas-title { display:block; padding-top:0; }
+#canvas-title .ui-icon { right:2px; }
+.ui-livecanvas-toolbox I { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/livecanvas-toolbox.gif) no-repeat; }
+
+/* Mobile Landing View */
+#cuco-body.mobile { background:#FFF none !important; }
+#proddescription { color:#000; }
+
+/* Intro View */
+#lst-intro-needlers { margin:0 0 0 12px; padding:0; width:440px; height:45px; }
+#lst-intro-needlers LI { width:35px; height:45px; display:block; float:left; margin-right:20px; }
+#lst-intro-needlers LI DIV { width:35px; padding-top:39px; font-size:9px; color:#888; text-align:center; background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/intro-needlers.jpg) 0 0 no-repeat; }
+#lst-intro-needlers LI.Andy DIV { background-position:0 0; }
+#lst-intro-needlers LI.Kristen DIV { background-position:-39px 0; }
+#lst-intro-needlers LI.Noelle DIV { background-position:-78px 0; }
+#lst-intro-needlers LI.Mikko DIV { background-position:-117px 0; }
+#lst-intro-needlers LI.Morgan DIV { background-position:-156px 0; }
+#lst-intro-needlers LI.Ben DIV { background-position:-195px 0; }
+#lst-intro-needlers LI.Travis DIV { background-position:-234px 0; }
+#lst-intro-needlers LI.Tim DIV { background-position:-273px 0; }
+#lst-intro-needlers LI.Barbara DIV { background-position:-312px 0; }
+#lst-intro-needlers LI.Layne DIV { background-position:-351px 0; }
+#lst-intro-needlers LI.Cameron DIV { background-position:-390px 0; }
+#intro-text, .offline-text, #chat-type-text { padding:40px 0; font-size:24px; font-weight:normal; color:#555; }
+#intro-text { font-size:18px; padding-bottom:30px; }
+#intro-text B { font-size:24px; }
+DIV.offline-text { font-size:18px; }
+#user-info-left { height:80px; }
+#info-1 { left:1px; background:#EEE; }
+#info-1 .side-decoration { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/input-right-arrow.gif) no-repeat; }
+#info-1-input { height:28px; line-height:28px; }
+#info-1-input, #question-input, #offline-question-input, #txt-feedback-more, #input-comment { padding:0 8px; background:#FFF url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bg-light-fade.gif) top repeat-x; border:#DDD 1px solid; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
+#go-button, #offline-submit-button, #submit-comment.button, #submit-button, #btn-feedback-submit { color:#963; background:#FEE395 url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/orange-fade.gif) bottom repeat-x; border:#D6982F 1px solid; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+#submit-comment { height:30px; width:60px; }
+#go-text, #submit-text { color:#963; font-size:15px; }
+#facebook-login-text { font-size:18px; font-weight:normal; color:#888; }
+.facebook-login-button { background:url(https://df7xs8p1yjitw.cloudfront.net/common/img/facebook_square_logo_40.gif); width:40px; height:40px; margin:5px 0 0 10px; }
+
+/* Offline View */
+#offline-name-input, #offline-email-input { color:#888; border:#CACACA 1px solid; }
+#offline-name-input.error, #offline-email-input.error, #offline-question-input.error { border:#C00 1px solid; -moz-box-shadow:0px 0px 10px #C00; -webkit-box-shadow:0px 0px 10px #C00; box-shadow:0px 0px 10px #C00; background:#FFC; }
+#offline-submit-container { margin:0 0 0 4px; }
+#offline-submit-button { text-align:center; }
+
+#tray-open { right:auto; top:42px; left:452px; }
+#chat-tray { left:477px; background:#FFF; border:#000 3px solid; }
+#chat-tray > .neck BUTTON { width:171px; }
+#chat-tray .tray-item .price { top:60px; }
+#more-info-help, #chat-tray .tray-item .hover-info, #chat-history .topic-item .hover-info { color:#0A4779; border:#000 1px solid; background:#FFF none; }
+#more-info-help B.triangle { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bubble-triangle-bottom.gif); }
+#chat-tray .tray-item .hover-info B.triangle { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bubble-triangle-left.gif); } 
+#chat-history .topic-item .hover-info B.triangle { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bubble-triangle-top.gif); }
+#chat-history .topic-item .hover-info.last B.triangle { background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/bubble-triangle-bottom.gif); }
+#topic-item { border:black 2px solid; }
+#topic-item A.close { background: url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/black-x.gif) center no-repeat; }
+#more-info-help { left:70px; top:-16px; }
+
+/* Chat View */
+#wait { -moz-box-shadow:0px 0px 10px #000; -webkit-box-shadow:0px 0px 10px #000; box-shadow:0px 0px 10px #000; }
+#wait-text { font-size:19px; font-weight:normal; }
+#wait-content { padding:20px 30px 0; background:#FFF; color:#888; }
+#spinner { height:200px; background: url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/spinner-outer.gif) center no-repeat; }
+#spinner B { height:200px; background: url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/needle-n.gif) center no-repeat; } 
+#canvas { background-color:#FFF; border:#CACACA 1px solid; }
+#hookups-container { height:112px; border:#B2B2B2 1px solid; }
+#hookups { background:#FFF; }
+#hookups .widget-title { background:#FFF; height:23px; margin:0; }
+#hookup-title { color:#000; font-weight:bold; }
+#hookup-text { color:#888; margin:2px 25px 4px 25px; }
+#coupon { color:#575757; }
+.coupon-hookup { background:#FFF; }
+#chat-container { background-color:#FFF; overflow:visible; }
+#chat-history { background-color:#FFF; color:#000; width:285px; border:#B2B2B2 1px solid; }
+#user-info2-container { color:#000; }
+#user-info3-container { background-color:#FFF; position:relative; left:5px; }
+#input-info3 { border:#CACACA 1px solid; }
+#user-info3-question-text { color:#000; font-style:normal; font-weight:normal; font-size:11px; }
+#input-comment { background:#FFF; color:#000; border:#CACACA 1px solid; width:200px; height:28px; }
+#submit-comment-text { font-size:15px; padding-top:7px; }
+#submit-info3 { position:relative; left:-5px; }
+#submit-info3-text { color:#0A4779; background:#FFF; text-decoration:underline; text-align:left; }
+#modal-background { background:transparent url('https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/white-opaque.png') repeat scroll 0% 0%; }
+#confirm { -moz-box-shadow:0px 0px 10px #575757; -webkit-box-shadow:0px 0px 10px #575757; box-shadow:0px 0px 10px #575757; }
+#confirm-content { background:#FFF url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/hatch-fade.gif) bottom repeat-x; border:#888 1px solid; color:#555; font-size:18px; font-weight:normal; }
+#confirm-cancel-button { -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+
+/* Ratings View */
+#pnl-feedback-body { width:470px; background:#FFF; }
+#frm-chat-rating { width:370px; margin-top:20px; }
+#frm-chat-rating LABEL { font-weight:normal; text-align:center; display:block; font-size:14px; } 
+#frm-chat-rating A { color:#000; }
+DIV.rating-links { margin-top:8px; background:#FFF; width:362px; height:32px; }
+DIV.rating-links A { margin:0 1px 0 2px; height:29px; width:29px; background:url(https://df7xs8p1yjitw.cloudfront.net/partners/needle/img/rate-star.jpg) right no-repeat; }
+DIV.rate-slider { width:373px; background:transparent none; height:42px; }
+.rate-slider .least, .rate-slider .most { text-align:center; color:#CCC; font-weight:normal; bottom:17px; font-size:14px; }
+.rate-slider .least B, .rate-slider .most B { font-weight:bold; font-size:15px; }
+.rate-slider .least { left:9px; }
+.rate-slider .most { right:0px; }
+.rate-slider .chosen { color:#000; width:373px; font-size:24px; }
+#txt-feedback-more { border:#CACACA 1px solid; height:56px; width:345px; margin-left:10px; resize:none; }
+#btn-feedback-submit { right:10px; bottom:18px; }
+#pnl-share, #twitter-share { position:relative; left:-40px; top:0; }
+
