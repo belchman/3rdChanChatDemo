@@ -75,27 +75,13 @@
 
 <!-- Page Content -->
 <div class="container">
-    <!--
     <script type="text/javascript">
-        const response = new XMLHttpRequest();
-
-        const json = JSON.stringify({
-            visitorId: getCookie("apex__tcVisitorID"),
-            currencyCode: "USD",
-            orderId: Date.now().toString(),
-            orderItems : ":1:29.99,:2:67.89"
-        });
-
-        response.open("POST", 'https://thirdchannelsfdc20220912072621.azurewebsites.net/api/PurchaseCapture/CDW1')
-        response.setRequestHeader('Content-Type', 'application/json');
-
-        response.send(json);
-
-        response.onload = (e) => {
-            alert(response.response);
-        }
+        var tcParam = tcParam||{};
+        tcParam.events = 'purchase';
+        tcParam.orderId = getCookie("apex__tcVisitorID");//cdwTagManagementData.levordref;
+        tcParam.currencyCode = 'USD';
+        tcParam.orderItems = ':2:400.00,:1:200.00';//productString;
     </script>
-    -->
     <h2>Thank you for your purchase!</h2>
 
 </div>
