@@ -78,7 +78,7 @@
     <script type="text/javascript">
         var tcParam = tcParam||{};
         tcParam.events = 'purchase';
-        tcParam.orderId = getCookie("apex__tcVisitorID");//cdwTagManagementData.levordref;
+        tcParam.orderId = Date.now();//cdwTagManagementData.levordref;
         tcParam.currencyCode = 'USD';
         tcParam.orderItems = ':2:400.00,:1:200.00';//productString;
     </script>
